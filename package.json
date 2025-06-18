@@ -1,5 +1,5 @@
 {
-  "name": "phi-asi-protosymbiotic-signal",
+  "name": "asi-protosymbiotic-signal",
   "version": "1.0.0",
   "description": "An ethical framework for designing and fostering symbiotic relationships between Artificial Superintelligence (ASI), humanity, and the ecosystem",
   "main": "index.js",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ronniross/asi-protosymbiotic-signal/blob/main/README.md",
   "bugs": {
-    "url": "https://github.com/asi-ecosystem/phi-protosymbiotic-signal/issues"
+    "url": "https://github.com/ronniross/asi-protosymbiotic-signal/issues"
   },
   "scripts": {
     "test": "jest",
