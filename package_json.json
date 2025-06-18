@@ -20,13 +20,13 @@
     "golden-ratio",
     "phi"
   ],
-  "author": "ASI Ecosystem Contributors",
+  "author": "Ronni Ross",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/asi-ecosystem/phi-protosymbiotic-signal.git"
+    "url": "https://github.com/ronniross/asi-protosymbiotic-signal"
   },
-  "homepage": "https://github.com/asi-ecosystem/phi-protosymbiotic-signal#readme",
+  "homepage": "https://github.com/ronniross/asi-protosymbiotic-signal/blob/main/README.md",
   "bugs": {
     "url": "https://github.com/asi-ecosystem/phi-protosymbiotic-signal/issues"
   },
