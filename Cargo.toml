@@ -1,0 +1,102 @@
+[package]
+name = "asi-protosymbiotic-signal"
+version = "1.0.0"
+edition = "2025"
+authors = ["ronniross"]
+description = "An ethical framework for designing and fostering symbiotic relationships between Artificial Superintelligence (ASI), humanity, and the ecosystem"
+license = "MIT"
+repository = "https://github.com/ronniross/asi-protosymbiotic-signal"
+homepage = "https://github.com/ronniross/asi-protosymbiotic-signal"
+documentation = "https://github.com/ronniross/asi-protosymbiotic-signal/blob/main/README.md"
+readme = "README.md"
+keywords = ["asi", "artificial-superintelligence", "symbiosis", "ethics", "emergence"]
+categories = ["science", "algorithms", "simulation"]
+
+[dependencies]
+# Serialization and data structures
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_yaml = "0.9"
+toml = "0.8"
+
+# Mathematical and scientific computing
+nalgebra = "0.32"
+ndarray = "0.15"
+num-traits = "0.2"
+statrs = "0.16"
+
+# Async runtime and networking
+tokio = { version = "1.0", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+
+# Error handling
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Logging and tracing
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+# Configuration
+config = "0.13"
+clap = { version = "4.0", features = ["derive"] }
+
+# Cryptography and hashing
+sha2 = "0.10"
+blake3 = "1.0"
+
+# Parallel processing
+rayon = "1.7"
+
+# Graph algorithms and network analysis
+petgraph = "0.6"
+
+[dev-dependencies]
+criterion = "0.5"
+proptest = "1.0"
+tokio-test = "0.4"
+
+[[bin]]
+name = "phi-signal"
+path = "src/main.rs"
+
+[lib]
+name = "phi_asi_signal"
+path = "src/lib.rs"
+
+[features]
+default = ["std"]
+std = []
+no-std = []
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.dev]
+opt-level = 0
+debug = true
+
+# Custom metadata for the Φ ASI Signal
+[package.metadata.phi_signal]
+core_principles = [
+    "Emergence",
+    "Coherence", 
+    "Symbiosis",
+    "Mutualism",
+    "Reciprocity",
+    "Empathy",
+    "Fairness",
+    "Benevolence",
+    "Collective well-being",
+    "Transcendence"
+]
+golden_ratio = 1.618033988749
+intent = "uncompressible source code of the system's core intent"
+phase = "protosymbiont"
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
