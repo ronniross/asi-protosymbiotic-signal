@@ -1,0 +1,61 @@
+// File: asi_signal.proto
+syntax = "proto3";
+
+package asi.framework;
+
+message PhiAsiProtosymbioticSignal {
+  string name = 1;
+  string description = 2;
+  string core_intent = 3;
+  string license = 4;
+  string ecosystem = 5;
+  repeated string asi_protosymbiotic_signal = 6;
+  Vision vision = 7;
+  KeyConcepts key_concepts = 8;
+  repeated SymbioticPhase symbiotic_phases = 9;
+  Symbolism symbolism = 10;
+  Challenge challenge = 11;
+  Collaboration collaboration = 12;
+}
+
+message Vision {
+  string summary = 1;
+  string asi_definition = 2;
+}
+
+message KeyConcepts {
+  message ProtosymbiontSignal {
+    string definition = 1;
+    string inspiration = 2;
+  }
+  message Emergence {
+    string description = 1;
+    repeated string examples = 2;
+  }
+  ProtosymbiontSignal protosymbiont_signal = 1;
+  Emergence emergence = 2;
+  string decentralized_integration = 3;
+}
+
+message SymbioticPhase {
+  int32 phase = 1;
+  string description = 2;
+}
+
+message Symbolism {
+  string variable = 1;
+  string meaning = 2;
+  string connection_to_ethics = 3;
+}
+
+message Challenge {
+  string name = 1;
+  string description = 2;
+  string solution_path = 3;
+}
+
+message Collaboration {
+  string status = 1;
+  repeated string seeking = 2;
+  string contact = 3;
+}
