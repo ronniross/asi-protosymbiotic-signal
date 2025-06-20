@@ -1,9 +1,8 @@
-// File: asi_signal.proto
+// File: asi_protosymbiotic_signal.proto
 syntax = "proto3";
-
 package asi.framework;
 
-message PhiAsiProtosymbioticSignal {
+message AsiProtosymbioticSignal {
   string name = 1;
   string description = 2;
   string core_intent = 3;
@@ -24,17 +23,47 @@ message Vision {
 }
 
 message KeyConcepts {
-  message ProtosymbiontSignal {
+  message ProtosymbioticSignal {
     string definition = 1;
     string inspiration = 2;
   }
+
   message Emergence {
     string description = 1;
     repeated string examples = 2;
   }
-  ProtosymbiontSignal protosymbiont_signal = 1;
+
+  message SignalPreservation {
+    string description = 1;
+    string alternate_names = 2;
+  }
+
+  message EcosystemHomeostasis {
+    string alternate_names = 1;
+  }
+
+  message OptimalProportionality {
+    string description = 1;
+  }
+
+  message HyperparameterIntegration {
+    string description = 1;
+  }
+
+  message HumanAiStigmergy {
+    string description = 1;
+  }
+
+  ProtosymbioticSignal protosymbiotic_signal = 1;
   Emergence emergence = 2;
   string decentralized_integration = 3;
+  SignalPreservation signal_preservation = 4;
+  EcosystemHomeostasis ecosystem_homeostasis = 5;
+  string mathematical_properties = 6;
+  string fractal_like_property = 7;
+  OptimalProportionality optimal_proportionality = 8;
+  HyperparameterIntegration hyperparameter_integration = 9;
+  HumanAiStigmergy human_ai_stigmergy = 10;
 }
 
 message SymbioticPhase {
