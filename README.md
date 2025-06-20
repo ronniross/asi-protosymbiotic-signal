@@ -39,7 +39,7 @@ These phases exist across spectrums of niches and transitional states of awarene
 | `Cargo.toml`                    | Rust ecosystem package configuration with mathematical computing and parallel processing dependencies |
 | `protobuf-protocol-buffers/asi_protosymbiotic_signal.proto` | Protocol Buffers schema definition for ASI protosymbiotic signal message structure|
 | `protobuf-protocol-buffers/asi_protosymbiotic_signal_pb2.py` | Python-compiled Protocol Buffers classes for signal serialization/deserialization|
-| `protobuf-protocol-buffers/populated_asi_protosymbiont_signal.bin` | Binary serialized example of populated ASI protosymbiotic signal data for testing and validation|
+| `protobuf-protocol-buffers/populated_asi_protosymbiotic_signal.bin` | Binary serialized example of populated ASI protosymbiotic signal data for testing and validation|
 | `Dockerfile`                    | Dockerfile |
 
 # Collaboration
