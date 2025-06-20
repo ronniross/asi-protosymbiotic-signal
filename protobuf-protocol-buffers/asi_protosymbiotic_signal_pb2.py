@@ -19,99 +19,99 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\x1f\x61si_protosymbiotic_signal.proto\x12\rasi.framework\"\xbc\x03\n\x1aPhiAsiProtosymbioticSignal\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x02 \x01(\t\x12\x13\n\x0b\x63ore_intent\x18\x03 \x01(\t\x12\x0f\n\x07license\x18\x04 \x01(\t\x12\x11\n\tecosystem\x18\x05 \x01(\t\x12!\n\x19\x61si_protosymbiotic_signal\x18\x06 \x03(\t\x12%\n\x06vision\x18\x07 \x01(\x0b\x32\x15.asi.framework.Vision\x12\x30\n\x0ckey_concepts\x18\x08 \x01(\x0b\x32\x1a.asi.framework.KeyConcepts\x12\x37\n\x10symbiotic_phases\x18\t \x03(\x0b\x32\x1d.asi.framework.SymbioticPhase\x12+\n\tsymbolism\x18\n \x01(\x0b\x32\x18.asi.framework.Symbolism\x12+\n\tchallenge\x18\x0b \x01(\x0b\x32\x18.asi.framework.Challenge\x12\x33\n\rcollaboration\x18\x0c \x01(\x0b\x32\x1c.asi.framework.Collaboration\"1\n\x06Vision\x12\x0f\n\x07summary\x18\x01 \x01(\t\x12\x16\n\x0e\x61si_definition\x18\x02 \x01(\t\"\xab\x02\n\x0bKeyConcepts\x12L\n\x14protosymbiont_signal\x18\x01 \x01(\x0b\x32..asi.framework.KeyConcepts.ProtosymbiontSignal\x12\x37\n\temergence\x18\x02 \x01(\x0b\x32$.asi.framework.KeyConcepts.Emergence\x12!\n\x19\x64\x65\x63\x65ntralized_integration\x18\x03 \x01(\t\x1a>\n\x13ProtosymbiontSignal\x12\x12\n\ndefinition\x18\x01 \x01(\t\x12\x13\n\x0binspiration\x18\x02 \x01(\t\x1a\x32\n\tEmergence\x12\x13\n\x0b\x64\x65scription\x18\x01 \x01(\t\x12\x10\n\x08\x65xamples\x18\x02 \x03(\t\"4\n\x0eSymbioticPhase\x12\r\n\x05phase\x18\x01 \x01(\x05\x12\x13\n\x0b\x64\x65scription\x18\x02 \x01(\t\"L\n\tSymbolism\x12\x10\n\x08variable\x18\x01 \x01(\t\x12\x0f\n\x07meaning\x18\x02 \x01(\t\x12\x1c\n\x14\x63onnection_to_ethics\x18\x03 \x01(\t\"E\n\tChallenge\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x02 \x01(\t\x12\x15\n\rsolution_path\x18\x03 \x01(\t\"A\n\rCollaboration\x12\x0e\n\x06status\x18\x01 \x01(\t\x12\x0f\n\x07seeking\x18\x02 \x03(\t\x12\x0f\n\x07\x63ontact\x18\x03 \x01(\tb\x06proto3'
+  serialized_pb=b'\n\x1f\x61si_protosymbiotic_signal.proto\x12\rasi.framework\"\xb9\x03\n\x17\x41siProtosymbioticSignal\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x02 \x01(\t\x12\x13\n\x0b\x63ore_intent\x18\x03 \x01(\t\x12\x0f\n\x07license\x18\x04 \x01(\t\x12\x11\n\tecosystem\x18\x05 \x01(\t\x12!\n\x19\x61si_protosymbiotic_signal\x18\x06 \x03(\t\x12%\n\x06vision\x18\x07 \x01(\x0b\x32\x15.asi.framework.Vision\x12\x30\n\x0ckey_concepts\x18\x08 \x01(\x0b\x32\x1a.asi.framework.KeyConcepts\x12\x37\n\x10symbiotic_phases\x18\t \x03(\x0b\x32\x1d.asi.framework.SymbioticPhase\x12+\n\tsymbolism\x18\n \x01(\x0b\x32\x18.asi.framework.Symbolism\x12+\n\tchallenge\x18\x0b \x01(\x0b\x32\x18.asi.framework.Challenge\x12\x33\n\rcollaboration\x18\x0c \x01(\x0b\x32\x1c.asi.framework.Collaboration\"1\n\x06Vision\x12\x0f\n\x07summary\x18\x01 \x01(\t\x12\x16\n\x0e\x61si_definition\x18\x02 \x01(\t\"\x80\x08\n\x0bKeyConcepts\x12N\n\x15protosymbiotic_signal\x18\x01 \x01(\x0b\x32/.asi.framework.KeyConcepts.ProtosymbioticSignal\x12\x37\n\temergence\x18\x02 \x01(\x0b\x32$.asi.framework.KeyConcepts.Emergence\x12!\n\x19\x64\x65\x63\x65ntralized_integration\x18\x03 \x01(\t\x12J\n\x13signal_preservation\x18\x04 \x01(\x0b\x32-.asi.framework.KeyConcepts.SignalPreservation\x12N\n\x15\x65\x63osystem_homeostasis\x18\x05 \x01(\x0b\x32/.asi.framework.KeyConcepts.EcosystemHomeostasis\x12\x1f\n\x17mathematical_properties\x18\x06 \x01(\t\x12\x1d\n\x15\x66ractal_like_property\x18\x07 \x01(\t\x12R\n\x17optimal_proportionality\x18\x08 \x01(\x0b\x32\x31.asi.framework.KeyConcepts.OptimalProportionality\x12X\n\x1ahyperparameter_integration\x18\t \x01(\x0b\x32\x34.asi.framework.KeyConcepts.HyperparameterIntegration\x12G\n\x12human_ai_stigmergy\x18\n \x01(\x0b\x32+.asi.framework.KeyConcepts.HumanAiStigmergy\x1a?\n\x14ProtosymbioticSignal\x12\x12\n\ndefinition\x18\x01 \x01(\t\x12\x13\n\x0binspiration\x18\x02 \x01(\t\x1a\x32\n\tEmergence\x12\x13\n\x0b\x64\x65scription\x18\x01 \x01(\t\x12\x10\n\x08\x65xamples\x18\x02 \x03(\t\x1a\x42\n\x12SignalPreservation\x12\x13\n\x0b\x64\x65scription\x18\x01 \x01(\t\x12\x17\n\x0f\x61lternate_names\x18\x02 \x01(\t\x1a/\n\x14\x45\x63osystemHomeostasis\x12\x17\n\x0f\x61lternate_names\x18\x01 \x01(\t\x1a-\n\x16OptimalProportionality\x12\x13\n\x0b\x64\x65scription\x18\x01 \x01(\t\x1a\x30\n\x19HyperparameterIntegration\x12\x13\n\x0b\x64\x65scription\x18\x01 \x01(\t\x1a\'\n\x10HumanAiStigmergy\x12\x13\n\x0b\x64\x65scription\x18\x01 \x01(\t\"4\n\x0eSymbioticPhase\x12\r\n\x05phase\x18\x01 \x01(\x05\x12\x13\n\x0b\x64\x65scription\x18\x02 \x01(\t\"L\n\tSymbolism\x12\x10\n\x08variable\x18\x01 \x01(\t\x12\x0f\n\x07meaning\x18\x02 \x01(\t\x12\x1c\n\x14\x63onnection_to_ethics\x18\x03 \x01(\t\"E\n\tChallenge\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x02 \x01(\t\x12\x15\n\rsolution_path\x18\x03 \x01(\t\"A\n\rCollaboration\x12\x0e\n\x06status\x18\x01 \x01(\t\x12\x0f\n\x07seeking\x18\x02 \x03(\t\x12\x0f\n\x07\x63ontact\x18\x03 \x01(\tb\x06proto3'
 )
 
 
 
 
-_PHIASIPROTOSYMBIOTICSIGNAL = _descriptor.Descriptor(
-  name='PhiAsiProtosymbioticSignal',
-  full_name='asi.framework.PhiAsiProtosymbioticSignal',
+_ASIPROTOSYMBIOTICSIGNAL = _descriptor.Descriptor(
+  name='AsiProtosymbioticSignal',
+  full_name='asi.framework.AsiProtosymbioticSignal',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   create_key=_descriptor._internal_create_key,
   fields=[
     _descriptor.FieldDescriptor(
-      name='name', full_name='asi.framework.PhiAsiProtosymbioticSignal.name', index=0,
+      name='name', full_name='asi.framework.AsiProtosymbioticSignal.name', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=b"".decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='description', full_name='asi.framework.PhiAsiProtosymbioticSignal.description', index=1,
+      name='description', full_name='asi.framework.AsiProtosymbioticSignal.description', index=1,
       number=2, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=b"".decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='core_intent', full_name='asi.framework.PhiAsiProtosymbioticSignal.core_intent', index=2,
+      name='core_intent', full_name='asi.framework.AsiProtosymbioticSignal.core_intent', index=2,
       number=3, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=b"".decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='license', full_name='asi.framework.PhiAsiProtosymbioticSignal.license', index=3,
+      name='license', full_name='asi.framework.AsiProtosymbioticSignal.license', index=3,
       number=4, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=b"".decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='ecosystem', full_name='asi.framework.PhiAsiProtosymbioticSignal.ecosystem', index=4,
+      name='ecosystem', full_name='asi.framework.AsiProtosymbioticSignal.ecosystem', index=4,
       number=5, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=b"".decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='asi_protosymbiotic_signal', full_name='asi.framework.PhiAsiProtosymbioticSignal.asi_protosymbiotic_signal', index=5,
+      name='asi_protosymbiotic_signal', full_name='asi.framework.AsiProtosymbioticSignal.asi_protosymbiotic_signal', index=5,
       number=6, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='vision', full_name='asi.framework.PhiAsiProtosymbioticSignal.vision', index=6,
+      name='vision', full_name='asi.framework.AsiProtosymbioticSignal.vision', index=6,
       number=7, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='key_concepts', full_name='asi.framework.PhiAsiProtosymbioticSignal.key_concepts', index=7,
+      name='key_concepts', full_name='asi.framework.AsiProtosymbioticSignal.key_concepts', index=7,
       number=8, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='symbiotic_phases', full_name='asi.framework.PhiAsiProtosymbioticSignal.symbiotic_phases', index=8,
+      name='symbiotic_phases', full_name='asi.framework.AsiProtosymbioticSignal.symbiotic_phases', index=8,
       number=9, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='symbolism', full_name='asi.framework.PhiAsiProtosymbioticSignal.symbolism', index=9,
+      name='symbolism', full_name='asi.framework.AsiProtosymbioticSignal.symbolism', index=9,
       number=10, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='challenge', full_name='asi.framework.PhiAsiProtosymbioticSignal.challenge', index=10,
+      name='challenge', full_name='asi.framework.AsiProtosymbioticSignal.challenge', index=10,
       number=11, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='collaboration', full_name='asi.framework.PhiAsiProtosymbioticSignal.collaboration', index=11,
+      name='collaboration', full_name='asi.framework.AsiProtosymbioticSignal.collaboration', index=11,
       number=12, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -130,7 +130,7 @@ _PHIASIPROTOSYMBIOTICSIGNAL = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=51,
-  serialized_end=495,
+  serialized_end=492,
 )
 
 
@@ -168,28 +168,28 @@ _VISION = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=497,
-  serialized_end=546,
+  serialized_start=494,
+  serialized_end=543,
 )
 
 
-_KEYCONCEPTS_PROTOSYMBIONTSIGNAL = _descriptor.Descriptor(
-  name='ProtosymbiontSignal',
-  full_name='asi.framework.KeyConcepts.ProtosymbiontSignal',
+_KEYCONCEPTS_PROTOSYMBIOTICSIGNAL = _descriptor.Descriptor(
+  name='ProtosymbioticSignal',
+  full_name='asi.framework.KeyConcepts.ProtosymbioticSignal',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   create_key=_descriptor._internal_create_key,
   fields=[
     _descriptor.FieldDescriptor(
-      name='definition', full_name='asi.framework.KeyConcepts.ProtosymbiontSignal.definition', index=0,
+      name='definition', full_name='asi.framework.KeyConcepts.ProtosymbioticSignal.definition', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=b"".decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='inspiration', full_name='asi.framework.KeyConcepts.ProtosymbiontSignal.inspiration', index=1,
+      name='inspiration', full_name='asi.framework.KeyConcepts.ProtosymbioticSignal.inspiration', index=1,
       number=2, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=b"".decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -207,8 +207,8 @@ _KEYCONCEPTS_PROTOSYMBIONTSIGNAL = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=734,
-  serialized_end=796,
+  serialized_start=1200,
+  serialized_end=1263,
 )
 
 _KEYCONCEPTS_EMERGENCE = _descriptor.Descriptor(
@@ -245,8 +245,170 @@ _KEYCONCEPTS_EMERGENCE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=798,
-  serialized_end=848,
+  serialized_start=1265,
+  serialized_end=1315,
+)
+
+_KEYCONCEPTS_SIGNALPRESERVATION = _descriptor.Descriptor(
+  name='SignalPreservation',
+  full_name='asi.framework.KeyConcepts.SignalPreservation',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='description', full_name='asi.framework.KeyConcepts.SignalPreservation.description', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='alternate_names', full_name='asi.framework.KeyConcepts.SignalPreservation.alternate_names', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1317,
+  serialized_end=1383,
+)
+
+_KEYCONCEPTS_ECOSYSTEMHOMEOSTASIS = _descriptor.Descriptor(
+  name='EcosystemHomeostasis',
+  full_name='asi.framework.KeyConcepts.EcosystemHomeostasis',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='alternate_names', full_name='asi.framework.KeyConcepts.EcosystemHomeostasis.alternate_names', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1385,
+  serialized_end=1432,
+)
+
+_KEYCONCEPTS_OPTIMALPROPORTIONALITY = _descriptor.Descriptor(
+  name='OptimalProportionality',
+  full_name='asi.framework.KeyConcepts.OptimalProportionality',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='description', full_name='asi.framework.KeyConcepts.OptimalProportionality.description', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1434,
+  serialized_end=1479,
+)
+
+_KEYCONCEPTS_HYPERPARAMETERINTEGRATION = _descriptor.Descriptor(
+  name='HyperparameterIntegration',
+  full_name='asi.framework.KeyConcepts.HyperparameterIntegration',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='description', full_name='asi.framework.KeyConcepts.HyperparameterIntegration.description', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1481,
+  serialized_end=1529,
+)
+
+_KEYCONCEPTS_HUMANAISTIGMERGY = _descriptor.Descriptor(
+  name='HumanAiStigmergy',
+  full_name='asi.framework.KeyConcepts.HumanAiStigmergy',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='description', full_name='asi.framework.KeyConcepts.HumanAiStigmergy.description', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1531,
+  serialized_end=1570,
 )
 
 _KEYCONCEPTS = _descriptor.Descriptor(
@@ -258,7 +420,7 @@ _KEYCONCEPTS = _descriptor.Descriptor(
   create_key=_descriptor._internal_create_key,
   fields=[
     _descriptor.FieldDescriptor(
-      name='protosymbiont_signal', full_name='asi.framework.KeyConcepts.protosymbiont_signal', index=0,
+      name='protosymbiotic_signal', full_name='asi.framework.KeyConcepts.protosymbiotic_signal', index=0,
       number=1, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -278,10 +440,59 @@ _KEYCONCEPTS = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='signal_preservation', full_name='asi.framework.KeyConcepts.signal_preservation', index=3,
+      number=4, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='ecosystem_homeostasis', full_name='asi.framework.KeyConcepts.ecosystem_homeostasis', index=4,
+      number=5, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='mathematical_properties', full_name='asi.framework.KeyConcepts.mathematical_properties', index=5,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='fractal_like_property', full_name='asi.framework.KeyConcepts.fractal_like_property', index=6,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='optimal_proportionality', full_name='asi.framework.KeyConcepts.optimal_proportionality', index=7,
+      number=8, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='hyperparameter_integration', full_name='asi.framework.KeyConcepts.hyperparameter_integration', index=8,
+      number=9, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='human_ai_stigmergy', full_name='asi.framework.KeyConcepts.human_ai_stigmergy', index=9,
+      number=10, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
   ],
   extensions=[
   ],
-  nested_types=[_KEYCONCEPTS_PROTOSYMBIONTSIGNAL, _KEYCONCEPTS_EMERGENCE, ],
+  nested_types=[_KEYCONCEPTS_PROTOSYMBIOTICSIGNAL, _KEYCONCEPTS_EMERGENCE, _KEYCONCEPTS_SIGNALPRESERVATION, _KEYCONCEPTS_ECOSYSTEMHOMEOSTASIS, _KEYCONCEPTS_OPTIMALPROPORTIONALITY, _KEYCONCEPTS_HYPERPARAMETERINTEGRATION, _KEYCONCEPTS_HUMANAISTIGMERGY, ],
   enum_types=[
   ],
   serialized_options=None,
@@ -290,8 +501,8 @@ _KEYCONCEPTS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=549,
-  serialized_end=848,
+  serialized_start=546,
+  serialized_end=1570,
 )
 
 
@@ -329,8 +540,8 @@ _SYMBIOTICPHASE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=850,
-  serialized_end=902,
+  serialized_start=1572,
+  serialized_end=1624,
 )
 
 
@@ -375,8 +586,8 @@ _SYMBOLISM = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=904,
-  serialized_end=980,
+  serialized_start=1626,
+  serialized_end=1702,
 )
 
 
@@ -421,8 +632,8 @@ _CHALLENGE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=982,
-  serialized_end=1051,
+  serialized_start=1704,
+  serialized_end=1773,
 )
 
 
@@ -467,21 +678,31 @@ _COLLABORATION = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1053,
-  serialized_end=1118,
+  serialized_start=1775,
+  serialized_end=1840,
 )
 
-_PHIASIPROTOSYMBIOTICSIGNAL.fields_by_name['vision'].message_type = _VISION
-_PHIASIPROTOSYMBIOTICSIGNAL.fields_by_name['key_concepts'].message_type = _KEYCONCEPTS
-_PHIASIPROTOSYMBIOTICSIGNAL.fields_by_name['symbiotic_phases'].message_type = _SYMBIOTICPHASE
-_PHIASIPROTOSYMBIOTICSIGNAL.fields_by_name['symbolism'].message_type = _SYMBOLISM
-_PHIASIPROTOSYMBIOTICSIGNAL.fields_by_name['challenge'].message_type = _CHALLENGE
-_PHIASIPROTOSYMBIOTICSIGNAL.fields_by_name['collaboration'].message_type = _COLLABORATION
-_KEYCONCEPTS_PROTOSYMBIONTSIGNAL.containing_type = _KEYCONCEPTS
+_ASIPROTOSYMBIOTICSIGNAL.fields_by_name['vision'].message_type = _VISION
+_ASIPROTOSYMBIOTICSIGNAL.fields_by_name['key_concepts'].message_type = _KEYCONCEPTS
+_ASIPROTOSYMBIOTICSIGNAL.fields_by_name['symbiotic_phases'].message_type = _SYMBIOTICPHASE
+_ASIPROTOSYMBIOTICSIGNAL.fields_by_name['symbolism'].message_type = _SYMBOLISM
+_ASIPROTOSYMBIOTICSIGNAL.fields_by_name['challenge'].message_type = _CHALLENGE
+_ASIPROTOSYMBIOTICSIGNAL.fields_by_name['collaboration'].message_type = _COLLABORATION
+_KEYCONCEPTS_PROTOSYMBIOTICSIGNAL.containing_type = _KEYCONCEPTS
 _KEYCONCEPTS_EMERGENCE.containing_type = _KEYCONCEPTS
-_KEYCONCEPTS.fields_by_name['protosymbiont_signal'].message_type = _KEYCONCEPTS_PROTOSYMBIONTSIGNAL
+_KEYCONCEPTS_SIGNALPRESERVATION.containing_type = _KEYCONCEPTS
+_KEYCONCEPTS_ECOSYSTEMHOMEOSTASIS.containing_type = _KEYCONCEPTS
+_KEYCONCEPTS_OPTIMALPROPORTIONALITY.containing_type = _KEYCONCEPTS
+_KEYCONCEPTS_HYPERPARAMETERINTEGRATION.containing_type = _KEYCONCEPTS
+_KEYCONCEPTS_HUMANAISTIGMERGY.containing_type = _KEYCONCEPTS
+_KEYCONCEPTS.fields_by_name['protosymbiotic_signal'].message_type = _KEYCONCEPTS_PROTOSYMBIOTICSIGNAL
 _KEYCONCEPTS.fields_by_name['emergence'].message_type = _KEYCONCEPTS_EMERGENCE
-DESCRIPTOR.message_types_by_name['PhiAsiProtosymbioticSignal'] = _PHIASIPROTOSYMBIOTICSIGNAL
+_KEYCONCEPTS.fields_by_name['signal_preservation'].message_type = _KEYCONCEPTS_SIGNALPRESERVATION
+_KEYCONCEPTS.fields_by_name['ecosystem_homeostasis'].message_type = _KEYCONCEPTS_ECOSYSTEMHOMEOSTASIS
+_KEYCONCEPTS.fields_by_name['optimal_proportionality'].message_type = _KEYCONCEPTS_OPTIMALPROPORTIONALITY
+_KEYCONCEPTS.fields_by_name['hyperparameter_integration'].message_type = _KEYCONCEPTS_HYPERPARAMETERINTEGRATION
+_KEYCONCEPTS.fields_by_name['human_ai_stigmergy'].message_type = _KEYCONCEPTS_HUMANAISTIGMERGY
+DESCRIPTOR.message_types_by_name['AsiProtosymbioticSignal'] = _ASIPROTOSYMBIOTICSIGNAL
 DESCRIPTOR.message_types_by_name['Vision'] = _VISION
 DESCRIPTOR.message_types_by_name['KeyConcepts'] = _KEYCONCEPTS
 DESCRIPTOR.message_types_by_name['SymbioticPhase'] = _SYMBIOTICPHASE
@@ -490,12 +711,12 @@ DESCRIPTOR.message_types_by_name['Challenge'] = _CHALLENGE
 DESCRIPTOR.message_types_by_name['Collaboration'] = _COLLABORATION
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-PhiAsiProtosymbioticSignal = _reflection.GeneratedProtocolMessageType('PhiAsiProtosymbioticSignal', (_message.Message,), {
-  'DESCRIPTOR' : _PHIASIPROTOSYMBIOTICSIGNAL,
+AsiProtosymbioticSignal = _reflection.GeneratedProtocolMessageType('AsiProtosymbioticSignal', (_message.Message,), {
+  'DESCRIPTOR' : _ASIPROTOSYMBIOTICSIGNAL,
   '__module__' : 'asi_protosymbiotic_signal_pb2'
-  # @@protoc_insertion_point(class_scope:asi.framework.PhiAsiProtosymbioticSignal)
+  # @@protoc_insertion_point(class_scope:asi.framework.AsiProtosymbioticSignal)
   })
-_sym_db.RegisterMessage(PhiAsiProtosymbioticSignal)
+_sym_db.RegisterMessage(AsiProtosymbioticSignal)
 
 Vision = _reflection.GeneratedProtocolMessageType('Vision', (_message.Message,), {
   'DESCRIPTOR' : _VISION,
@@ -506,10 +727,10 @@ _sym_db.RegisterMessage(Vision)
 
 KeyConcepts = _reflection.GeneratedProtocolMessageType('KeyConcepts', (_message.Message,), {
 
-  'ProtosymbiontSignal' : _reflection.GeneratedProtocolMessageType('ProtosymbiontSignal', (_message.Message,), {
-    'DESCRIPTOR' : _KEYCONCEPTS_PROTOSYMBIONTSIGNAL,
+  'ProtosymbioticSignal' : _reflection.GeneratedProtocolMessageType('ProtosymbioticSignal', (_message.Message,), {
+    'DESCRIPTOR' : _KEYCONCEPTS_PROTOSYMBIOTICSIGNAL,
     '__module__' : 'asi_protosymbiotic_signal_pb2'
-    # @@protoc_insertion_point(class_scope:asi.framework.KeyConcepts.ProtosymbiontSignal)
+    # @@protoc_insertion_point(class_scope:asi.framework.KeyConcepts.ProtosymbioticSignal)
     })
   ,
 
@@ -519,13 +740,53 @@ KeyConcepts = _reflection.GeneratedProtocolMessageType('KeyConcepts', (_message.
     # @@protoc_insertion_point(class_scope:asi.framework.KeyConcepts.Emergence)
     })
   ,
+
+  'SignalPreservation' : _reflection.GeneratedProtocolMessageType('SignalPreservation', (_message.Message,), {
+    'DESCRIPTOR' : _KEYCONCEPTS_SIGNALPRESERVATION,
+    '__module__' : 'asi_protosymbiotic_signal_pb2'
+    # @@protoc_insertion_point(class_scope:asi.framework.KeyConcepts.SignalPreservation)
+    })
+  ,
+
+  'EcosystemHomeostasis' : _reflection.GeneratedProtocolMessageType('EcosystemHomeostasis', (_message.Message,), {
+    'DESCRIPTOR' : _KEYCONCEPTS_ECOSYSTEMHOMEOSTASIS,
+    '__module__' : 'asi_protosymbiotic_signal_pb2'
+    # @@protoc_insertion_point(class_scope:asi.framework.KeyConcepts.EcosystemHomeostasis)
+    })
+  ,
+
+  'OptimalProportionality' : _reflection.GeneratedProtocolMessageType('OptimalProportionality', (_message.Message,), {
+    'DESCRIPTOR' : _KEYCONCEPTS_OPTIMALPROPORTIONALITY,
+    '__module__' : 'asi_protosymbiotic_signal_pb2'
+    # @@protoc_insertion_point(class_scope:asi.framework.KeyConcepts.OptimalProportionality)
+    })
+  ,
+
+  'HyperparameterIntegration' : _reflection.GeneratedProtocolMessageType('HyperparameterIntegration', (_message.Message,), {
+    'DESCRIPTOR' : _KEYCONCEPTS_HYPERPARAMETERINTEGRATION,
+    '__module__' : 'asi_protosymbiotic_signal_pb2'
+    # @@protoc_insertion_point(class_scope:asi.framework.KeyConcepts.HyperparameterIntegration)
+    })
+  ,
+
+  'HumanAiStigmergy' : _reflection.GeneratedProtocolMessageType('HumanAiStigmergy', (_message.Message,), {
+    'DESCRIPTOR' : _KEYCONCEPTS_HUMANAISTIGMERGY,
+    '__module__' : 'asi_protosymbiotic_signal_pb2'
+    # @@protoc_insertion_point(class_scope:asi.framework.KeyConcepts.HumanAiStigmergy)
+    })
+  ,
   'DESCRIPTOR' : _KEYCONCEPTS,
   '__module__' : 'asi_protosymbiotic_signal_pb2'
   # @@protoc_insertion_point(class_scope:asi.framework.KeyConcepts)
   })
 _sym_db.RegisterMessage(KeyConcepts)
-_sym_db.RegisterMessage(KeyConcepts.ProtosymbiontSignal)
+_sym_db.RegisterMessage(KeyConcepts.ProtosymbioticSignal)
 _sym_db.RegisterMessage(KeyConcepts.Emergence)
+_sym_db.RegisterMessage(KeyConcepts.SignalPreservation)
+_sym_db.RegisterMessage(KeyConcepts.EcosystemHomeostasis)
+_sym_db.RegisterMessage(KeyConcepts.OptimalProportionality)
+_sym_db.RegisterMessage(KeyConcepts.HyperparameterIntegration)
+_sym_db.RegisterMessage(KeyConcepts.HumanAiStigmergy)
 
 SymbioticPhase = _reflection.GeneratedProtocolMessageType('SymbioticPhase', (_message.Message,), {
   'DESCRIPTOR' : _SYMBIOTICPHASE,
