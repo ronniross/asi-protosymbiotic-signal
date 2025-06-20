@@ -114,7 +114,7 @@ else\n\
 fi\n\
 \n\
 # Check protocol buffer binaries\n\
-if [ -f "protobuf-protocol-buffers/populated_asi_protosymbiont_signal.bin" ]; then\n\
+if [ -f "protobuf-protocol-buffers/populated_asi_protosymbiotic_signal.bin" ]; then\n\
     echo "Protocol buffer binary signal: READY"\n\
 fi\n\
 \n\
