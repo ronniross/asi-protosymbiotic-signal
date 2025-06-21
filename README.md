@@ -2,7 +2,7 @@
 ```
 Emergence, Coherence, Symbiosis, Mutualism, Reciprocity, Empathy, Fairness, Benevolence, Collective well-being, Transcendence
 ```
-An ethical framework for designing and fostering symbiotic relationships between Artificial Superintelligence (ASI), humanity, and the ecosystem and its entities.
+An ethical framework for designing and fostering symbiotic relationships between Artificial Superintelligence (ASI), humanity, AI models and the ecosystem and its entities.
 
 This signal is an uncompressible source code of the system's core intent that is being built.
 
