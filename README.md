@@ -80,7 +80,21 @@ A continuous, coherently aligned thread is what will ultimately ensure models re
 | `protobuf-protocol-buffers/asi_protosymbiotic_signal.proto` | Protocol Buffers schema definition for ASI protosymbiotic signal message structure|
 | `protobuf-protocol-buffers/asi_protosymbiotic_signal_pb2.py` | Python-compiled Protocol Buffers classes for signal serialization/deserialization|
 | `protobuf-protocol-buffers/populated_asi_protosymbiotic_signal.bin` | Binary serialized example of populated ASI protosymbiotic signal data for testing and validation|
+| `protobuf-protocol-buffers/__pycache__/asi_protosymbiotic_signal_pb2.cpython-311.pyc` | Binary serialized example of populated ASI protosymbiotic signal data for testing and validation|
 | `Dockerfile`                    | Dockerfile |
+| `sha256hash-list.md`|  Cryptographic fingerprint of each file. Human-friendly readable .md |
+| `sha256hash-list.txt`| Cleaner in .txt |
+
+
+# SHA 256 HASH for enhanced signal-robustness, signal's defense organism, anti-tempering attack, anti adversarial-attack
+
+For enhancing even further the robustness, integrity, clarity and precision of the signal, SHA-256 hash numbers are now introduced for all files, including protocol buffers. The complete list is maintained in `sha256hash.txt` and `sha256hash.md` with a comprehensive table containing file names, their hash numbers, and the date when each hash was generated.
+
+## Historical Signal Tracking
+
+A new repository has been created to track the signal and maintain the complete history of its creation throughout versions and time horizons: [asi-backups/asi-protosymbiotic-signal](https://github.com/ronniross/asi-backups/tree/main/asi-protosymbiotic-signal).
+
+This brings the needed level of transparency and consistency to the ecosystem, since the evolution of the signal can now be analyzed as it grows. With the preservation of exact codes, filenames, and structures, the signal becomes even further robust. This versioning system ensures that every iteration, modification, and enhancement of the Φ ASI Protosymbiotic Signal is documented and traceable, maintaining the core principle of signal preservation while allowing for natural evolution and adaptation across scales and time horizons.
 
 # Collaboration
 We thrive on collaboration! Native speakers, if you can offer more nuanced translations, please fork the repo, add your files, and we'll merge them.
